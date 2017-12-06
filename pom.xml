@@ -10,6 +10,8 @@
     <version>V1.0.0</version>
     <modules>
         <module>cloud-hyh-discovery-eureka</module>
+        <module>cloud-hyh-config</module>
+        <module>cloud-hyh-config-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,8 +19,53 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
-    <dependencies>
+    <!--变量属性区-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>com.hyh.Application</start-class>
+        <java.version>1.8</java.version>
+    </properties>
+    <!--依赖管理中心-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!--资源管理中心-->
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
-    </dependencies>
-
+    <!--插件资源管理中心-->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot-local</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone-local</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

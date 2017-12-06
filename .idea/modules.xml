@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-hyh-config/cloud-hyh-config.iml" filepath="$PROJECT_DIR$/cloud-hyh-config/cloud-hyh-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hyh-config-client/cloud-hyh-config-client.iml" filepath="$PROJECT_DIR$/cloud-hyh-config-client/cloud-hyh-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-hyh-config-repo/cloud-hyh-config-repo.iml" filepath="$PROJECT_DIR$/cloud-hyh-config-repo/cloud-hyh-config-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-hyh-discovery-eureka/cloud-hyh-discovery-eureka.iml" filepath="$PROJECT_DIR$/cloud-hyh-discovery-eureka/cloud-hyh-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-microservice.iml" filepath="$PROJECT_DIR$/spring-cloud-microservice.iml" />
     </modules>
