@@ -1,0 +1,21 @@
+#服务端口
+server:
+  port: 8082
+
+#服务注册中心配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+
+#spring设置
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hanyahong/spring-cloud-microservice.git
+          searchPaths: cloud-hyh-config-repo
+
