@@ -1,0 +1,23 @@
+spring:
+  application:
+    #本项目名称
+    name: config-client
+  cloud:
+    config:
+      #配置中心服务器地址配置
+      uri: http://hanyahong03.ccic.intra.customs.gov.cn:8082/
+      profile: default
+      label: master
+
+
+server:
+  port: 8091
+#服务发现配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
+
+
+
