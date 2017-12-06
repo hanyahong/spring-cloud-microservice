@@ -13,10 +13,7 @@
 
     <!--属性变量区-->
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.hyh.Application</start-class>
-        <java.version>1.8</java.version>
-        <docker.image.prefix>springcloud</docker.image.prefix>
+        <start-class>com.hyh.DiscoveryApplication</start-class>
     </properties>
 
     <!--依赖管理-->
@@ -35,29 +32,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <!--资源库管理-->
-    <repositories>
-        <repository>
-            <id>spring-snapshots</id>
-            <name>Spring Snapshots</name>
-            <url>https://repo.spring.io/libs-snapshot</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <!--依赖管理中心-->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
+
 
     <!--构建中心-->
     <build>

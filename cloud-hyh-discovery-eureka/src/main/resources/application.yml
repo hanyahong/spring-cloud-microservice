@@ -2,6 +2,7 @@
 server:
   port: 8081
 
+
 #注册中心设置，server本身不被发现
 eureka:
   client:
@@ -9,3 +10,4 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+
