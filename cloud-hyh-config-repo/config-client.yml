@@ -1,0 +1,7 @@
+#随意设置的一个参数
+myblog:
+  name: 千万之路刚开始
+  url: http://www.hanyahong.com
+  location: BeiJing
+config-client:
+  name: test
