@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @Author hanyahong
  * @Date 2017/12/6- 16:39
  */
-
-@RestController
 @RefreshScope
+@RestController
+
 public class TestApi {
 
     @Value("${myblog.name}")
@@ -21,7 +21,6 @@ public class TestApi {
     private String url;
     @Value("${myblog.location}")
     private String location;
-
     @RequestMapping("/blog-info")
     public String getBlogInfo() {
         return "从Github仓库中获取得到我博客信息：【"+location+","+","+url+","+name+"】";
