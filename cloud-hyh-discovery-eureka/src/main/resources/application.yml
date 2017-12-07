@@ -1,13 +1,16 @@
 #server 端口号设置
 server:
   port: 8081
-
-
 #注册中心设置，server本身不被发现
 eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
   server:
-    waitTimeInMsWhenSyncEmpty: 0
+    # 设为false，关闭自我保护
+    enable-self-preservation: false
+    # 清理间隔（单位毫秒，默认是60*1000）
+    eviction-interval-timer-in-ms: 100
+
+
 
