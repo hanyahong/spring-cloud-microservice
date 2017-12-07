@@ -4,7 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-hyh-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-hyh-config-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-hyh-config-repo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-hyh-discovery-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hyh-ribbon-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hyh-ribbon-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hyh-ribbon-test-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hyh-service-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hyh-service-2" charset="UTF-8" />
   </component>
 </project>

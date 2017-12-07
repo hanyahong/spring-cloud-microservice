@@ -12,6 +12,9 @@
         <module>cloud-hyh-discovery-eureka</module>
         <module>cloud-hyh-config</module>
         <module>cloud-hyh-config-client</module>
+        <module>cloud-hyh-service-1</module>
+        <module>cloud-hyh-service-2</module>
+        <module>cloud-hyh-ribbon-test-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
