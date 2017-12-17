@@ -15,6 +15,8 @@
         <module>cloud-hyh-service-1</module>
         <module>cloud-hyh-service-2</module>
         <module>cloud-hyh-ribbon-test-client</module>
+        <module>cloud-hyh-api-gateway-zuul</module>
+        <module>cloud-hyh-api-gateway-zuul</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-hyh-api-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hyh-ribbon-client/pom.xml" />
       </set>
     </option>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-hyh-api-gateway-zuul" />
         <module name="cloud-hyh-config" />
         <module name="cloud-hyh-config-client" />
         <module name="cloud-hyh-discovery-eureka" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-hyh-api-gateway-zuul" target="1.8" />
       <module name="cloud-hyh-config" target="1.8" />
       <module name="cloud-hyh-config-client" target="1.8" />
       <module name="cloud-hyh-config-repo" target="1.6" />
