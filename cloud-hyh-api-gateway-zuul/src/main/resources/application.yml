@@ -4,7 +4,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8081/eureka/
   instance:
-    appname: cloud-service
+    appname: api-gateway
 
 #设置网关端口号
 server:
