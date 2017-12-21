@@ -16,6 +16,7 @@
         <module>cloud-hyh-service-2</module>
         <module>cloud-hyh-ribbon-test-client</module>
         <module>cloud-hyh-api-gateway-zuul</module>
+        <module>cloud-hyh-api-gateway-zuul-filter</module>
 
     </modules>
     <parent>

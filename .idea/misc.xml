@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/cloud-hyh-api-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-hyh-ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </set>
     </option>
   </component>
