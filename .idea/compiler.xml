@@ -24,6 +24,7 @@
       <module name="cloud-hyh-config-client" target="1.8" />
       <module name="cloud-hyh-config-repo" target="1.6" />
       <module name="cloud-hyh-discovery-eureka" target="1.8" />
+      <module name="cloud-hyh-feign-test-client" target="1.8" />
       <module name="cloud-hyh-ribbon" target="1.8" />
       <module name="cloud-hyh-ribbon-client" target="1.8" />
       <module name="cloud-hyh-ribbon-test-client" target="1.8" />
